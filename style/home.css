@@ -1,0 +1,46 @@
+/* 공통 홈*/
+/* 공통 추천 음료*/
+.ediya-recommend-container{
+    background-color: #fff;
+}
+.ediya-recommend{
+    background-color: #BAE5FB;
+}
+
+@media all and (max-width: 768px){
+/* 모바일 홈*/
+.ediya-recommend-container{
+    padding-bottom: 165px;
+    font-size: 20px;
+}
+.ediya-recommend{
+    padding: 42px 0 42px;
+}
+
+.ediya-recommend-text[lang="en"]{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+.ediya-recommend-text{
+    margin-top: 15px;
+    margin-bottom: ;
+}
+.ediya-recommend-beverage:first-child{
+    display: none;
+}
+}
+
+@media all and (max-width: 768px){
+    .ediya-recommend-container{
+        padding-bottom: 260px;
+}
+.ediya-recommend-text[lang="en"]{
+    display: flex;
+    flex-flow: row nowrap;
+    
+    align-items: center;
+}
+
+}
