@@ -26,3 +26,9 @@ legend {
   max-width: 100%;
   height: auto;
 }
+
+.iframe-container{
+    position: relative;
+    position top: 56.25%;
+    height: 0;
+}

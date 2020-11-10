@@ -88,6 +88,10 @@
      transform: translateX(-60%);
     }
   }
+  /*공통 이디야 유튜브*/
+  .ediya-youtube-container{
+      margin: 0;
+  }
   @media all and (min-width: 768px){
     /* 데스크탑 홈 */
     /* 데스크탑 추천음료 */
@@ -145,4 +149,31 @@
       width: 457px;
       /* background-color: pink; */
     }
+  }
+
+
+  .ediya-notice__article {
+    flex-grow: 1;
+    padding: 16px 20px 16px 15px;
+    background: #fefefe;
+  }
+  /* home 이디야 공지사항 내 기사 섹션 내 제목 (h3 요소) */
+  .ediya-notice__article-headline {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #24388d;
+    margin: 0;
+  }
+  /* home 이디야 공지사항 내 기사 섹션 내 날짜 (time 요소) */
+  .ediya-notice__article-date {
+    font-size: 1.2rem;
+    color: #878787;
+  }
+  /* home 이디야 공지사항 내 기사 섹션 내 텍스트 (p 요소) */
+  .ediya-notice__article-text {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #14182c;
+    letter-spacing: -0.05em;
+    margin: 10px 0 0 0;
   }
