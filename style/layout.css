@@ -14,6 +14,26 @@ body{
 .app-main{
     background-color: violet;
     flex-grow: 1;
+    display: flex;
+    flex-flow: row wrap;
+}
+.ediya-recommend-container{
+    background-color: gold
+    width: 100px;
+}
+.ediya-section-container{
+    background-color: aqua;
+    width: 100px;
+}
+.ediya-inform-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.ediya-notice{
+    width: 100px;
+}
+.ediya-news{
+    width: 100px;
 }
 .app-footer-container{
     background-color: silver;
@@ -29,5 +49,20 @@ body{
 @media screen and (min-width:768px){
 body{
     background-color: lightgreen;
+    }
+    .ediya-section-container{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    .ediya-youtube{
+        background-color: orange;
+        width: 365px;
+    }
+    .ediya-inform-container{
+        background-color: teal;
+        width: 365px;
+    }
+
     }
 }
