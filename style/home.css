@@ -142,6 +142,55 @@
   background: transparent;
   padding: 0;
 }
+
+.ediya-news {
+  position: relative;
+  background-color: #24388d;
+  color: #fefefe;
+  font-size: 1.3rem;
+  padding: 15px;
+}
+
+.ediya-news-headline {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.ediya-news-list{
+  
+  margin-top: 30px;
+}
+.ediya-news-item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-top: 5px;
+ 
+}
+
+.ediya-news-subject {
+  flex-grow: 1;
+  margin-right: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+}
+
+.ediya-news-date {
+  min-width: 62px;
+  font-size: 1.2rem;
+}
+
+.ediya-news .icon-more {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 35px;
+}
+
 @media all and (min-width: 768px){
   /* 데스크탑 홈 */
   /* 데스크탑 추천음료 */
@@ -157,8 +206,17 @@
     justify-content: center;
     align-items: center;
   }
+
   .ediya-recommend-text{
     margin: 30px 0;
+  }
+
+  .ediya-notice-headline{
+    padding-top: 10px;
+  }
+  .ediya-news{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1019px){
@@ -190,7 +248,7 @@
   }
   .ediya-recommend-beverage:first-child{
     top: -107px;
-    left: ;
+    left: 120px;
     width: 306px;
   }
   .ediya-recommend-beverage:last-child{
